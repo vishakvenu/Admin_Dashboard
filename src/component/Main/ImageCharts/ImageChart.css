@@ -1,0 +1,25 @@
+.ImageChartIcons{
+    /* position: absolute; */
+    /* top:60%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    margin-bottom: 10px;
+    padding-top: 154px;
+    /* width:100%; */
+    /* background-color: green; */
+    display: flex;
+    /* left:30%; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ /* @media(min-width:600px) and (max-width:1030px) {
+    .ImageChartIcons{
+    /* width:200px; */
+    
+    /* } */
+/* }  * */
+/* .IndivChartIcons{
+    
+} */

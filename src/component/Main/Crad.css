@@ -1,0 +1,42 @@
+.card-header{
+    display:flex;
+    justify-content: space-between !important;
+   
+}
+
+.Icon-wrapper{
+    position: relative;
+    /* top:-100px; */
+    /* left:0; */
+}
+.Icons{
+    position: absolute;
+    top:-50px;
+    left:-10px;
+}
+
+@media(max-width:600px){
+    .Icons{
+        top:-40px;
+        left:0;
+    }
+    .adjuster{
+        padding: 5px 8px !important;
+        /* padding-bottom: 14px !important; */
+    }
+    .divider{
+        margin:0 !important;
+    }
+}
+
+
+.text{
+    text-align: right;
+}
+
+.redOnly{
+    color:red;
+}
+.divider{
+    margin-top:10px !important;
+}

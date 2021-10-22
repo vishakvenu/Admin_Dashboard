@@ -1,0 +1,66 @@
+.Main-navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Search-Icons{
+    display: flex;
+}
+.notifications{
+    position: relative;
+    /* background-color: green; */
+}
+.notification-list{
+    position:absolute !important;
+    background-color: #fff;
+    top:58px;
+    left:-150px;
+    width:250px;
+    cursor: pointer;
+    z-index:9;
+}
+.css-1p823my-MuiListItem-root:hover{
+    background-color:rgb(20, 17, 17);
+    color:#fff;
+}
+#standard-basic{
+    width:250px !important;
+}
+.css-10hburv-MuiTypography-root{
+    font-size: 15px !important;
+}
+@media (max-width:600px){
+    .Main-navbar{
+        padding-top:10px;
+    }
+    .Search-Icons{
+        display:none;
+    }
+    .DashboardText{
+        font-size: 30px !important;
+    }
+}
+
+@media(min-width:600px) and (max-width:900px){
+.Search-Icons{
+    display:none;
+}
+}
+@media(min-width:600px) and (max-width:1030px){
+    .Main-navbar{
+        padding-top:10px;
+    }
+    .DashboardText{
+        font-size: 30px !important;
+    }
+    #standard-basic{
+        width:100px !important;
+    }
+}

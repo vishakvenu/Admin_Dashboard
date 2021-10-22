@@ -1,0 +1,94 @@
+.chartCard{
+    padding:10px 20px;
+    overflow: visible !important;
+    /* height:250px; */
+
+}
+
+.ChartWrapper{
+    position: relative;
+    /* width:100%; */
+    color:#fff;
+    transition: all 0.3s ease-in;
+    
+}
+.charts{
+    position: absolute;
+    top:-13px;
+    left:0;
+    width: 100%;
+   
+    
+}
+
+.check{
+    width:100%;
+    height: 100%;
+    
+    background-color: rgb(240, 159, 53);
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    
+}
+.check2{
+    width:100%;
+    height: 100%;
+    background-color: rgb(51, 178, 209);
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    
+}
+.check3{
+    width:100%;
+    height: 100%;
+    background-color: #ff7171;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    
+}
+.chartCard:hover .check{
+    transform: translateY(-40px);
+}
+
+.chartCard:hover .check2{
+    transform: translateY(-40px);
+}
+.chartCard:hover .check3{
+    transform: translateY(-40px);
+}
+.chart-Icons{
+    width:100px;
+    margin:115px auto 20px auto;
+    cursor: pointer;
+    opacity:0
+    
+}
+.chartCard:hover .chart-Icons{
+    opacity: 1;
+}
+.green{
+    color:green;
+}
+.bottom-Area{
+    display: flex;
+    align-items: center;
+}
+@media(min-width:600px) and (max-width:1030px){
+    .chart{
+        /* display: none; */
+        width:100%;
+        /* box-sizing: border-box; */
+        overflow: hidden;
+       
+    }
+    .chart-Icons{
+       
+        margin:55px auto 0 auto;
+    }
+}
+
+@media(max-width:600px){
+    .makeStyles-chart-11{
+        margin-bottom: 15px !important;
+      }
+}

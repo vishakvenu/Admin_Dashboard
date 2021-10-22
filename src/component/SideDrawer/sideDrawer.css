@@ -1,0 +1,88 @@
+
+.Menu{
+    background: url("../../assets/one-world-trade-center-336594_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.header-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px 0px;
+    padding-top: 25px !important;
+    box-sizing: border-box;
+}
+
+.Main-heading{
+    padding:0;
+    margin:0;
+    text-align: center;
+    margin-left:20px !important;
+    
+   
+    /* font-size: 30px; */
+    font-weight: 500;
+}
+.Divider{
+    background-color: #fff;
+    height:1px;
+    /* margin:15px 0 !important; */
+}
+.user-profile{
+    padding:5px 0;
+}
+.user-profile span{
+    font-size: 20px;
+}
+.Menu ul li{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding:10px 15px;
+}
+
+.MenuItems{
+    padding:0 15px;
+    font-size:20px;
+   
+}
+.Main_Menu li{
+    padding:20px 0 20px 10px !important;
+    margin-top: 5px;
+    
+}
+
+@media(max-width:600px) {
+    .header-text{
+        padding:10px 0px;
+        padding-top: 20px !important;
+        /* background-color: green; */
+    }
+    .Main-heading{ 
+        font-size: 18px !important;
+        font-weight: 500;
+        margin-left:10px !important;
+    }
+    .Icon{
+        font-size: 25x !important;
+    }
+    .user-profile span{
+        font-size: 20px;
+    }
+    .MenuItems{
+        padding:0 10px;
+        font-size:18px;
+       
+    }
+    .Main_Menu li{
+        padding:10px 0 10px 5px !important;
+        margin-top: 5px;
+        
+    }
+    .MuiIcon-root{
+        font-size: 5px;
+    }
+}
