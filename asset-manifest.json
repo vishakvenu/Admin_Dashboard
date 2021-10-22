@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Admin_Dashboard/static/css/main.c2356cb0.chunk.css",
+    "main.js": "/Admin_Dashboard/static/js/main.8ea68756.chunk.js",
+    "main.js.map": "/Admin_Dashboard/static/js/main.8ea68756.chunk.js.map",
+    "runtime-main.js": "/Admin_Dashboard/static/js/runtime-main.8efb8ad4.js",
+    "runtime-main.js.map": "/Admin_Dashboard/static/js/runtime-main.8efb8ad4.js.map",
+    "static/js/2.f263a218.chunk.js": "/Admin_Dashboard/static/js/2.f263a218.chunk.js",
+    "static/js/2.f263a218.chunk.js.map": "/Admin_Dashboard/static/js/2.f263a218.chunk.js.map",
+    "static/js/3.bea6f693.chunk.js": "/Admin_Dashboard/static/js/3.bea6f693.chunk.js",
+    "static/js/3.bea6f693.chunk.js.map": "/Admin_Dashboard/static/js/3.bea6f693.chunk.js.map",
+    "index.html": "/Admin_Dashboard/index.html",
+    "static/css/main.c2356cb0.chunk.css.map": "/Admin_Dashboard/static/css/main.c2356cb0.chunk.css.map",
+    "static/js/2.f263a218.chunk.js.LICENSE.txt": "/Admin_Dashboard/static/js/2.f263a218.chunk.js.LICENSE.txt",
+    "static/media/Apartment.0198960a.jpg": "/Admin_Dashboard/static/media/Apartment.0198960a.jpg",
+    "static/media/Apartment2.4a04c4cf.jpg": "/Admin_Dashboard/static/media/Apartment2.4a04c4cf.jpg",
+    "static/media/Apartment3.ab70168c.jpg": "/Admin_Dashboard/static/media/Apartment3.ab70168c.jpg",
+    "static/media/sideDrawer.css": "/Admin_Dashboard/static/media/one-world-trade-center-336594_960_720.c1492519.jpg",
+    "static/media/vishak.2e394bfe.jpg": "/Admin_Dashboard/static/media/vishak.2e394bfe.jpg",
+    "static/media/world.5f27cd11.svg": "/Admin_Dashboard/static/media/world.5f27cd11.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8efb8ad4.js",
+    "static/js/2.f263a218.chunk.js",
+    "static/css/main.c2356cb0.chunk.css",
+    "static/js/main.8ea68756.chunk.js"
+  ]
+}
