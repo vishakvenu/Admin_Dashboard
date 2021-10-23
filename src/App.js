@@ -1,13 +1,15 @@
 import { Grid } from '@mui/material';
 import { useState } from 'react';
-import {Switch,Route} from 'react-router-dom'
+import {Switch,Route,Redirect} from 'react-router-dom'
 import './App.css';
 import Backdrop from './component/Backdrop';
 import Main from './component/Main/Main';
+import ProfileConatiner from './component/profile/profileConatiner';
 
 
-function App() {
+function App() { 
   const [show, setShow] = useState(false);
+ 
   const changer=(e)=>{
     if(!e.target.classList.contains('Menu')){
      setShow(prev=>!prev)
@@ -21,11 +23,14 @@ function App() {
     </Grid>
     <Grid item xs={12}  md={9} lg={10} xl={10} >
     <Switch>
-      <Route exact path="/" >
+    
+      <Redirect exact from='/' to="/dashboard" />
+    
+      <Route exact path="/dashboard" >
       <Main clickHanlder={()=>setShow(!show)}/>
       </Route>
       <Route exact path="/profile" >
-      <h1>Profile</h1>
+      <ProfileConatiner clickHanlder={()=>setShow(!show)}/>
       </Route>
     </Switch>
      

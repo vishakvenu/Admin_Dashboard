@@ -30,13 +30,17 @@
     height:1px;
     /* margin:15px 0 !important; */
 }
-.user-profile{
+
+.user-profile li{
+    display: flex;
+    /* justify-content: center; */
     padding:5px 0;
+    align-items: center;
 }
 .user-profile span{
     font-size: 20px;
 }
-.Menu ul li{
+.Menu ul a{
     display: flex;
     /* justify-content: center; */
     /* flex-direction: column; */
@@ -48,6 +52,12 @@
     padding:0 15px;
     font-size:20px;
    
+}
+.Main_Menu{
+    padding-top: 13px;
+}
+.Main_Menu a{
+    margin-top: 10px;
 }
 .Main_Menu li{
     padding:20px 0 20px 10px !important;

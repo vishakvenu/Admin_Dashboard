@@ -18,7 +18,7 @@ import "./NavBar.css";
 import { useStyles } from "../MuiStyles/MuiStyles";
 import { useEffect, useRef, useState } from "react";
 
-const NavBar = ({ clickHanlder }) => {
+const NavBar = ({ clickHanlder ,text}) => {
   const [showList, setShowList] = useState(false);
   const [showSecList, setShowSecList] = useState(false);
   const classes = useStyles();
@@ -47,9 +47,9 @@ const NavBar = ({ clickHanlder }) => {
   };
 
   return (
-    <nav className="Main-navbar">
-      <Typography variant="h3" className="DashboardText">
-        DashBoard
+    <nav className="Main-navbar" >
+      <Typography variant="h4" className="DashboardText">
+        {text}
       </Typography>
 
       <div className="Search-Icons">

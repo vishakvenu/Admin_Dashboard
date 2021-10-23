@@ -9,6 +9,7 @@ import {useStyles} from '../MuiStyles/MuiStyles'
 import vishak from '../../assets/vishak.jpg'
 import LiItems from "./LiItems";
 import { useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 const SideDrawer = ({ changer }) => {
   const classes=useStyles()
@@ -16,11 +17,11 @@ const SideDrawer = ({ changer }) => {
 
   const data=[{
     Icon:HomeIcon,
-    text:"Dashboard",path:"/"
+    text:"Dashboard",path:"/dashboard"
   },
   {
     Icon:PanoramaIcon,
-    text:"Page",path:"/profile"
+    text:"Page",path:"/page"
   },
   {
     Icon:EqualizerIcon,
@@ -32,12 +33,12 @@ const SideDrawer = ({ changer }) => {
   },
 ]
 
-  const getText=(e)=>{
-    if(e.target.parentElement.classList.contains('LiItems')){
-      let item=e.target.innerText
-      console.log(item)
-    }
-  }
+  // const getText=(e)=>{
+  //   if(e.target.parentElement.classList.contains('LiItems')){
+  //     let item=e.target.innerText
+  //     console.log(item)
+  //   }
+  // }
   return (
     <div className="Menu" onClick={changer}>
       <Container >
@@ -51,23 +52,19 @@ const SideDrawer = ({ changer }) => {
         <Divider className="Divider"/>
 
         <ul className="user-profile">
-            <li><Avatar sx={{ width: 56, height: 56 }} className={classes.AvatarIcon} src={vishak} />
+            <NavLink to="/profile"><Avatar sx={{ width: 56, height: 56 }} className={classes.AvatarIcon} src={vishak} />
             <span className="MenuItems">Vishak</span>
-            </li>
+            </NavLink>
 
         </ul>
         <Divider className="Divider"/>
-        <ul className="Main_Menu">
+        <ul className="Main_Menu" >
         {data.map((item)=>{
           return(
-            <LiItems key={item.text} refVal={nameRef} click={getText} Icon={item.Icon}
+            <LiItems key={item.text} refVal={nameRef} Icon={item.Icon}
              classes={classes.icon} text={item.text} path={item.path} />
           )
         })}
-{/*          
-          <LiItems refVal={nameRef} click={getText} Icon={PanoramaIcon} classes={classes.icon} text="Pages"/>
-          <LiItems refVal={nameRef} click={getText} Icon={EqualizerIcon} classes={classes.icon} text="Chart"/>
-          <LiItems refVal={nameRef} click={getText} Icon={RoomIcon} classes={classes.icon} text="Map"/> */}
           
         </ul>
       </Container>

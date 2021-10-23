@@ -14,7 +14,7 @@ const Main = ({ clickHanlder }) => {
   return (
     <div className="Main">
       <Container maxWidth="lg">
-        <NavBar clickHanlder={clickHanlder} />
+        <NavBar clickHanlder={clickHanlder} text="Dashboard" />
 
         <Grid container spacing={2} className={classes.main}>
           {cards.map((card) => (

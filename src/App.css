@@ -20,13 +20,17 @@ body{
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-.Menu ul li{
+.Main_Menu  li{
   padding: 5px 10px;
   box-sizing: border-box;
 }
-.Menu li:hover{
+ /* a:hover{
+  background-color: rgb(71, 155, 250);
+} */
+.active{
   background-color: rgb(71, 155, 250);
 }
+
 .backdrop{
   height:100vh;
   /* width:200px; */
@@ -125,3 +129,4 @@ body{
     margin-left:0;
   }
 }
+
