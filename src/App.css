@@ -30,6 +30,9 @@ body{
 .active{
   background-color: rgb(71, 155, 250);
 }
+/* .clor{
+  background-color: rgb(21, 21, 104);
+} */
 
 .backdrop{
   height:100vh;
