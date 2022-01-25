@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Admin_Dashboard/static/css/main.80746c62.chunk.css",
-    "main.js": "/Admin_Dashboard/static/js/main.0cd7c674.chunk.js",
-    "main.js.map": "/Admin_Dashboard/static/js/main.0cd7c674.chunk.js.map",
-    "runtime-main.js": "/Admin_Dashboard/static/js/runtime-main.8efb8ad4.js",
-    "runtime-main.js.map": "/Admin_Dashboard/static/js/runtime-main.8efb8ad4.js.map",
-    "static/js/2.05f07f66.chunk.js": "/Admin_Dashboard/static/js/2.05f07f66.chunk.js",
-    "static/js/2.05f07f66.chunk.js.map": "/Admin_Dashboard/static/js/2.05f07f66.chunk.js.map",
-    "static/js/3.bea6f693.chunk.js": "/Admin_Dashboard/static/js/3.bea6f693.chunk.js",
-    "static/js/3.bea6f693.chunk.js.map": "/Admin_Dashboard/static/js/3.bea6f693.chunk.js.map",
+    "main.css": "/Admin_Dashboard/static/css/main.4e657bf5.chunk.css",
+    "main.js": "/Admin_Dashboard/static/js/main.39d3d582.chunk.js",
+    "main.js.map": "/Admin_Dashboard/static/js/main.39d3d582.chunk.js.map",
+    "runtime-main.js": "/Admin_Dashboard/static/js/runtime-main.bb8a9ea8.js",
+    "runtime-main.js.map": "/Admin_Dashboard/static/js/runtime-main.bb8a9ea8.js.map",
+    "static/js/2.40cc3c7c.chunk.js": "/Admin_Dashboard/static/js/2.40cc3c7c.chunk.js",
+    "static/js/2.40cc3c7c.chunk.js.map": "/Admin_Dashboard/static/js/2.40cc3c7c.chunk.js.map",
+    "static/js/3.386766fd.chunk.js": "/Admin_Dashboard/static/js/3.386766fd.chunk.js",
+    "static/js/3.386766fd.chunk.js.map": "/Admin_Dashboard/static/js/3.386766fd.chunk.js.map",
     "index.html": "/Admin_Dashboard/index.html",
-    "static/css/main.80746c62.chunk.css.map": "/Admin_Dashboard/static/css/main.80746c62.chunk.css.map",
-    "static/js/2.05f07f66.chunk.js.LICENSE.txt": "/Admin_Dashboard/static/js/2.05f07f66.chunk.js.LICENSE.txt",
+    "static/css/main.4e657bf5.chunk.css.map": "/Admin_Dashboard/static/css/main.4e657bf5.chunk.css.map",
+    "static/js/2.40cc3c7c.chunk.js.LICENSE.txt": "/Admin_Dashboard/static/js/2.40cc3c7c.chunk.js.LICENSE.txt",
     "static/media/Apartment.0198960a.jpg": "/Admin_Dashboard/static/media/Apartment.0198960a.jpg",
     "static/media/Apartment2.4a04c4cf.jpg": "/Admin_Dashboard/static/media/Apartment2.4a04c4cf.jpg",
     "static/media/Apartment3.ab70168c.jpg": "/Admin_Dashboard/static/media/Apartment3.ab70168c.jpg",
     "static/media/sideDrawer.css": "/Admin_Dashboard/static/media/one-world-trade-center-336594_960_720.c1492519.jpg",
-    "static/media/vishak.2e394bfe.jpg": "/Admin_Dashboard/static/media/vishak.2e394bfe.jpg",
+    "static/media/profile.css": "/Admin_Dashboard/static/media/vishak.2e394bfe.jpg",
     "static/media/world.5f27cd11.svg": "/Admin_Dashboard/static/media/world.5f27cd11.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8efb8ad4.js",
-    "static/js/2.05f07f66.chunk.js",
-    "static/css/main.80746c62.chunk.css",
-    "static/js/main.0cd7c674.chunk.js"
+    "static/js/runtime-main.bb8a9ea8.js",
+    "static/js/2.40cc3c7c.chunk.js",
+    "static/css/main.4e657bf5.chunk.css",
+    "static/js/main.39d3d582.chunk.js"
   ]
 }
